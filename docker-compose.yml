@@ -1,0 +1,15 @@
+services:
+  research:
+    image: freqtradeorg/freqtrade:stable
+    container_name: crypto-research
+
+    volumes:
+      - ./user_data:/freqtrade/user_data:ro
+
+    working_dir: /freqtrade
+
+    entrypoint: ["python"]
+
+    command:
+      - "-c"
+      - "print('Research environment ready. No trading started.')"

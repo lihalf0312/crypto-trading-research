@@ -1,0 +1,24 @@
+# Freqtrade sensitive files
+user_data/config.json
+user_data/config.json.*
+user_data/*.sqlite
+user_data/*.sqlite-*
+
+# Market data
+user_data/data/
+
+# Logs
+user_data/logs/
+
+# Backtest outputs
+user_data/backtest_results/
+user_data/hyperopt_results/
+user_data/hyperopts/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# freqAI models
+user_data/freqaimodels/
+user_data/plot/
