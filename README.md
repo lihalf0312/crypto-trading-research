@@ -136,13 +136,18 @@ These checks do not guarantee that every market observation is accurate. Extreme
 
 ## 5. Market Return Analysis
 
-The research notebook calculates five-minute logarithmic returns:
+## Return Calculation
 
-```text
-r_t = ln(P_t / P_(t-1))
-```
+For price series \(P_t\), the log return is defined as:
 
-where P_t represents the closing price at time t.
+$$
+r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
+$$
+
+where:
+
+- \(P_t\) represents the closing price at time \(t\);
+- \(P_{t-1}\) represents the previous period closing price.
 
 The analysis includes:
 
