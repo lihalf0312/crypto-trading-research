@@ -138,7 +138,7 @@ These checks do not guarantee that every market observation is accurate. Extreme
 
 ## Return Calculation
 
-For price series \(P_t\), the log return is defined as:
+For price series $\(P_t\)$, the log return is defined as:
 
 $$
 r_t = \ln\left(\frac{P_t}{P_{t-1}}\right)
@@ -146,8 +146,8 @@ $$
 
 where:
 
-- \(P_t\) represents the closing price at time \(t\);
-- \(P_{t-1}\) represents the previous period closing price.
+- $\(P_t\)$ represents the closing price at time \(t\);
+- $\(P_{t-1}\)$ represents the previous period closing price.
 
 The analysis includes:
 
