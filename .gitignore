@@ -14,6 +14,7 @@ user_data/logs/
 user_data/backtest_results/
 user_data/hyperopt_results/
 user_data/hyperopts/
+research/
 
 # Python cache
 __pycache__/
@@ -22,3 +23,4 @@ __pycache__/
 # freqAI models
 user_data/freqaimodels/
 user_data/plot/
+research/cta_backtest_config.json

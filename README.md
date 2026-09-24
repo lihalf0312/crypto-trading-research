@@ -229,20 +229,48 @@ Additional public evaluation demonstrations may be added using explicitly identi
 
 ---
 
-## 9. Public Strategy Interface
+## 9-1. Public CTA Strategy Example
 
 The repository includes:
 
-```text
-user_data/strategies/example_strategy.py
-```
+user_data/strategies/trend_following_cta.py
 
-This file illustrates integration with the Freqtrade strategy interface.
+This strategy demonstrates a classical medium-frequency trend-following CTA framework using:
 
-It is a simplified public example, not the proprietary production strategy.
+- 1-hour futures candles
+- moving average trend signals
+- volatility filtering
+- long/short trend participation
+- rule-based risk management
 
-Its signals and parameters should not be interpreted as a validated trading strategy or used for live trading without independent testing and risk review.
+The strategy is designed for research demonstration and reproducibility.
 
+The production strategy and proprietary alpha signals used in private research are intentionally excluded.
+
+---
+
+## 9-2. Backtest Results
+
+A public baseline evaluation was conducted for the `TrendFollowingCTA` strategy.
+
+| Item | Value |
+|---|---|
+| Market | BTC/USDT Perpetual Futures |
+| Exchange | Binance Futures |
+| Timeframe | 1h |
+| Backtest Period | Sep 2023 - Sep 2026 |
+| Starting Capital | 10,000 USDT |
+| Total Trades | 921 |
+| Total Return | -6.05% |
+| Sharpe Ratio | -0.43 |
+| Maximum Drawdown | 13.22% |
+
+The backtest demonstrates a complete quantitative research workflow,
+including historical data preparation, systematic signal generation,
+and performance evaluation.
+
+The strategy is provided as a reproducible research example.
+Production trading strategies and proprietary alpha models are excluded.
 ---
 
 ## 10. Reproducibility
