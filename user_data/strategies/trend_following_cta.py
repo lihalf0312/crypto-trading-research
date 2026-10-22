@@ -4,7 +4,8 @@ Public medium-frequency CTA strategy example.
 This strategy demonstrates a classical trend-following approach
 using moving averages and volatility filtering.
 
-The production strategy and proprietary alpha logic are not included.
+This is the illustrative baseline. The full MyStrategy implementation is
+published separately in my_strategy.py.
 """
 
 from pandas import DataFrame

@@ -1,0 +1,4 @@
+# The image installs packages only; project files are mounted at runtime.
+**
+!Dockerfile.research
+!.dockerignore

@@ -1,7 +1,6 @@
-FROM freqtradeorg/freqtrade:stable
+FROM freqtradeorg/freqtrade@sha256:7031bca43ed7668ebf421725dd5016acade6ef88b0771db3e08c96e6d19a42db
 
 USER root
-
-RUN pip install --no-cache-dir --break-system-packages matplotlib
-
+RUN pip install --no-cache-dir matplotlib==3.11.2
 USER ftuser
+WORKDIR /workspace

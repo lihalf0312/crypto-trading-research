@@ -44,4 +44,6 @@ The objective is to demonstrate the complete quantitative workflow:
 
 data preparation → strategy development → backtesting → performance evaluation.
 
-The production strategy and proprietary alpha signals are not included.
+These figures belong only to TrendFollowingCTA and are historical simulations,
+not account performance. The separate MyStrategy source and report are linked
+from the root README. The two strategies use different test setups.

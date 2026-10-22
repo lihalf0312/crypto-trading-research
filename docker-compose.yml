@@ -1,15 +1,14 @@
 services:
   research:
-    image: freqtradeorg/freqtrade:stable
-    container_name: crypto-research
-
+    image: crypto-research:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.research
+    working_dir: /workspace
     volumes:
-      - ./user_data:/freqtrade/user_data:ro
-
-    working_dir: /freqtrade
-
+      - .:/workspace:ro
+    environment:
+      PYTHONDONTWRITEBYTECODE: "1"
+      MPLBACKEND: Agg
     entrypoint: ["python"]
-
-    command:
-      - "-c"
-      - "print('Research environment ready. No trading started.')"
+    command: ["analyze_live.py", "--demo"]

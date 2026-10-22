@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "1h",
+    "elapsed_minutes": 0,
+    "low": 60971.1,
+    "high": 62672.3,
+    "candidate_exit_rate": 63867.00000000001,
+    "fills_within_candle": false
+  },
+  {
+    "mode": "5m",
+    "elapsed_minutes": 30,
+    "low": 61347.0,
+    "high": 61845.0,
+    "candidate_exit_rate": 61659.5,
+    "fills_within_candle": true
+  }
+]

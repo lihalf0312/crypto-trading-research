@@ -1,26 +1,67 @@
-# Freqtrade sensitive files
-user_data/config.json
-user_data/config.json.*
-user_data/*.sqlite
-user_data/*.sqlite-*
+# Private configuration and credentials at any depth.
+config.json
+config.json.*
+config_*.json*
+config-*.json*
+*config*.json*
+*.config.json
+*.config.json.*
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.aws/
+.ssh/
+credentials*
+secrets*
+*.bak
+*.backup
+configs/*
+!configs/*.example.json
+user_data/config*
 
-# Market data
+# SQLite databases and runtime sidecars; synthetic databases are generated locally.
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.sqlite*
+*.db
+*.db-*
+*.wal
+*.shm
+
+# Data and runtime outputs. Curated aggregate research reports are allowlisted by location.
 user_data/data/
-
-# Logs
+data/
+datasets/
+*.feather
+*.parquet
+*.h5
 user_data/logs/
-
-# Backtest outputs
 user_data/backtest_results/
 user_data/hyperopt_results/
 user_data/hyperopts/
-research/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# freqAI models
 user_data/freqaimodels/
 user_data/plot/
-research/cta_backtest_config.json
+analysis_outputs/
+research/
+*.log
+*.log.*
+logs/
+*.zip
+*.tar
+*.tar.gz
+reports/**/trades_*.csv
+reports/**/matched_trades.csv
+reports/**/matched_examples.csv
+reports/**/case_*.csv
+
+# Python and notebook execution artifacts.
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/

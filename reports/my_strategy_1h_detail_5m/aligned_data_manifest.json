@@ -1,0 +1,72 @@
+[
+  {
+    "pair": "BTC/USDT:USDT",
+    "one_hour_sha256": "11e0da9d9a2a213fbdeaee7d5b236760c11d04541b5537735813591f6222d7ac",
+    "five_minute_sha256": "5f03c35a679bcfab5df4e05cd4a9199f4e695052e608d6453af8392665c04b54"
+  },
+  {
+    "pair": "ETH/USDT:USDT",
+    "one_hour_sha256": "9d21f5f4f5792168cc1600b54a1e58c635d022cdb543b4e24bd373fc6ae773cc",
+    "five_minute_sha256": "4075598fe14507c6c44710801c160738dcff45faf206ac21e1586153e21d93a8"
+  },
+  {
+    "pair": "SOL/USDT:USDT",
+    "one_hour_sha256": "0e1a57008e19345b9e5fbf14533912005fb43baab8da84b8f1c9a2e1c3cca8cd",
+    "five_minute_sha256": "82ba8779524868a8bb53fc69ff81f3baac7e26a2f37456cb96c2d8dbc3096197"
+  },
+  {
+    "pair": "XRP/USDT:USDT",
+    "one_hour_sha256": "258e014fc3e93a7264c0c4a250f0e769f4a787803f8c8fb0246aa88fc0a4fa28",
+    "five_minute_sha256": "362c5ab3849a0417055cda48d82d0faa6c7e9d863dd55fec1f00fe47e6ec8e5b"
+  },
+  {
+    "pair": "BNB/USDT:USDT",
+    "one_hour_sha256": "a07bc0fc63095c810b51f856c5bd6a75edfe914ae60d0e0140754bcba3c71d14",
+    "five_minute_sha256": "1a7ca603db7ce6c88b24613e7de3576c6638931c3f24c0e15cd043f52c5fbde2"
+  },
+  {
+    "pair": "DOGE/USDT:USDT",
+    "one_hour_sha256": "e0c6b3075c4a75982ba911afb63df8d663321c2270dcbfbb419cfba9abf35d74",
+    "five_minute_sha256": "2bbcc31d967d1a7fd66245e9c494b750eab6e1ffe39d8fbde86b3e5eb4c99fa7"
+  },
+  {
+    "pair": "ADA/USDT:USDT",
+    "one_hour_sha256": "b918e680d78b9991f9c4d0dfc1f2cc029afa89f534dc08277b7be51f2443b63f",
+    "five_minute_sha256": "c1abd8315a2697634b2eaaf095aa0bdb0360f13e27abee3762f84e634b709880"
+  },
+  {
+    "pair": "LINK/USDT:USDT",
+    "one_hour_sha256": "37fdf4e4a8d3f502c49c4db9cae44b88ca06f633fbe7a09ac67f3646fcce228e",
+    "five_minute_sha256": "2254117440b717e14fe7ffe23ba0b63673378df1506495d9aeab8be689bc17b5"
+  },
+  {
+    "pair": "AVAX/USDT:USDT",
+    "one_hour_sha256": "8ff1129dca6c3fbdacc46ceeed33420beb7d6df888eac1f68311058d8c576e5d",
+    "five_minute_sha256": "72a15ab1632bfd6a054c399ad2cdae925df011234fcbe408545e825644c0b09b"
+  },
+  {
+    "pair": "LTC/USDT:USDT",
+    "one_hour_sha256": "bd65e2618f7b163a448b026ff23fcc783ae4e780913ad853c76f31c32c44bd80",
+    "five_minute_sha256": "992572b31e1938729a866ad0d9e447301bc9bd7c8d71c44e77a4f9baf3d5c0cd"
+  },
+  {
+    "pair": "BCH/USDT:USDT",
+    "one_hour_sha256": "4aab6b6bd2e0c219f3fc17d72c9a14a1b9cbc4144c170bc7083b6f6a2101b076",
+    "five_minute_sha256": "871db639ea7e6174b89f7abf14a672bed5b42ee2535111ccf2ed8d464915504c"
+  },
+  {
+    "pair": "DOT/USDT:USDT",
+    "one_hour_sha256": "6e8f01a5cbe57cb65dfefdefddfe106b14358e96d3c3971d5f3e6ddbfb000f47",
+    "five_minute_sha256": "410f4a6f89c085ee3ceef3fcf0e92e66b28acd38e3382fc22039ac9e5ce69724"
+  },
+  {
+    "pair": "NEAR/USDT:USDT",
+    "one_hour_sha256": "acb71d828bc41b2f3084d79282cf8d73fd86ff5532e4e58b44ee9db7b37a02fd",
+    "five_minute_sha256": "4fc226f02eedd8a5dd82f525f9091f67e8a1681c538dc9bff3accbd0026f831a"
+  },
+  {
+    "pair": "UNI/USDT:USDT",
+    "one_hour_sha256": "609a43540fbf28b047432a67395218641e743943c17a29687b8400052ce222f4",
+    "five_minute_sha256": "17c5869ae972046de1260e41f77f9b97b6bbc7711ac9adf322f68cdd0cca4eac"
+  }
+]

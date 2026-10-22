@@ -1,0 +1,6 @@
+exit_reason_1h,exit_reason_5m,trades,delta_net_pnl,mean_delta_ratio
+roi,roi,6,0.0,0.0
+roi,trailing_stop_loss,16,-118.47741189,-0.07436722186927845
+stop_loss,stop_loss,125,0.0,0.0
+stop_loss,trailing_stop_loss,5,57.36125122,0.11813281211274598
+trailing_stop_loss,trailing_stop_loss,136,-31.46710596,-0.0023558132797201425
